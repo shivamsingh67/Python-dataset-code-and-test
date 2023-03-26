@@ -36,6 +36,7 @@ def main():
     toss_winner_2010 = calculate_data(match_data)
     toss_winner_name, toss_winner_count = trasfer_to_list(toss_winner_2010)
     graph(toss_winner_name, toss_winner_count)
+    print(toss_winner_2010)
 
 
 if __name__ == '__main__':
